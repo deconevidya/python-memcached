@@ -5,6 +5,7 @@ python:
   - 3.2
   - 3.3
   - 3.4
+  - 3.5
   - pypy
 services:
   - memcached
@@ -14,4 +15,4 @@ install: python setup.py install
 
 before_script: pip install nose
 script: nosetests
-build_image: drydock/u14pytpls:tip
+build_image: drydock/u14pytall:tip
