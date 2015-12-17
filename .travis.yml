@@ -15,4 +15,4 @@ install: python setup.py install
 
 before_script: pip install nose
 script: nosetests
-build_image: drydock/u14pytpls:tip
+build_image: drydock/u12pytpls:tip
